@@ -280,8 +280,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 5
+  _dashSpeed: 12
   _deadzone: 0.3
-  _startingDirection: {x: 0, y: 1}
+  _startingDirection: {x: 0, y: -1}
+  DASH_TIME: 0.5
 --- !u!50 &149231025
 Rigidbody2D:
   serializedVersion: 4

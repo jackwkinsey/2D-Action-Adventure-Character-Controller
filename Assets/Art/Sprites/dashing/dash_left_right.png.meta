@@ -1,9 +1,27 @@
 fileFormatVersion: 2
 guid: a9d19c58913221f439ab0d9bd5eb7def
-timeCreated: 1516954846
+timeCreated: 1516964312
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: dash_left_right_0
+    21300002: dash_left_right_1
+    21300004: dash_left_right_2
+    21300006: dash_left_right_3
+    21300008: dash_left_right_4
+    21300010: dash_left_right_5
+    21300012: dash_left_right_6
+    21300014: dash_left_right_7
+    21300016: dash_left_right_8
+    21300018: dash_left_right_9
+    21300020: dash_left_right_10
+    21300022: dash_left_right_11
+    21300024: dash_left_right_12
+    21300026: dash_left_right_13
+    21300028: dash_left_right_14
+    21300030: dash_left_right_15
+    21300032: dash_left_right_16
+    21300034: dash_left_right_17
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -31,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -40,13 +58,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -65,9 +83,270 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dash_left_right_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 74
+        width: 12
+        height: 32
+      alignment: 9
+      pivot: {x: 0.48278174, y: 0.7259991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 77
+        width: 68
+        height: 29
+      alignment: 9
+      pivot: {x: 0.10193769, y: 0.6888152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 79
+        width: 70
+        height: 27
+      alignment: 9
+      pivot: {x: 0.11921452, y: 0.66453695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 75
+        width: 66
+        height: 31
+      alignment: 9
+      pivot: {x: 0.09769809, y: 0.7093698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 79
+        width: 55
+        height: 27
+      alignment: 9
+      pivot: {x: 0.1459739, y: 0.6748273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 77
+        width: 40
+        height: 29
+      alignment: 9
+      pivot: {x: 0.1607254, y: 0.69328964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 79
+        width: 32
+        height: 27
+      alignment: 9
+      pivot: {x: 0.24646568, y: 0.7130709}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_7
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 79
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.2681972, y: 0.67385155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 76
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.34429252, y: 0.74431443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 23
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.69668114, y: 0.7858019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 26
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.78448486, y: 0.78448486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 26
+        width: 32
+        height: 27
+      alignment: 9
+      pivot: {x: 0.77197266, y: 0.7513144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 24
+        width: 40
+        height: 29
+      alignment: 9
+      pivot: {x: 0.8687767, y: 0.74415547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 26
+        width: 55
+        height: 27
+      alignment: 9
+      pivot: {x: 0.8647533, y: 0.71853423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_14
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 22
+        width: 66
+        height: 31
+      alignment: 9
+      pivot: {x: 0.9157118, y: 0.7284035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 26
+        width: 70
+        height: 27
+      alignment: 9
+      pivot: {x: 0.88563496, y: 0.7021442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_16
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 24
+        width: 68
+        height: 29
+      alignment: 9
+      pivot: {x: 0.9121619, y: 0.7288958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dash_left_right_17
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 21
+        width: 12
+        height: 32
+      alignment: 9
+      pivot: {x: 0.475413, y: 0.76275325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
